@@ -6,7 +6,7 @@
     <body>
         <div class="main">
             <!---load header file--->
-            <?php include ".../pages/top.html" ?>
+            <?php include "../pages/top.html" ?>
 
             <!---show popular and new content--->
             <div class="content">
