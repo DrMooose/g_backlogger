@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    direction: column;
+}
+
+.sidebar {
+    flex: 1;
+    border-right: solid 1px black;
+}
+
+.filters {
+    color: black;
+    position: fixed;
+    padding-left: 2rem;
+}
+
+.t {
+    padding-left: 1rem;
+}
+
+.list {
+    flex: 6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#card {
+    margin: 1rem;
+}

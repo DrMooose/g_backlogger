@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: #1D9276;
+    color: white;
+}
+
+h1 {
+    padding-left: 1rem;
+}
+
+nav {
+    display: flex;
+    background-color: #6ebeac;
+    height: 45px;
+    color: white;
+}
+
+h3 {
+    padding: 0rem 1rem;
+}
+
+#s_bar {
+    color: black;
+    border-radius: 3rem;
+    height: 35px;
+}

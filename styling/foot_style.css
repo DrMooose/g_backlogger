@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #1D9276;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    height: 3rem;
+}
+
+h4 {
+    padding: 0rem 1rem;
+    color: white;
+}

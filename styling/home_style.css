@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f0ff;
+}
+
+.content {
+    width: 100%;
+}
+
+.popular {
+    color:#0c493b;    
+    padding: 2rem 15rem 0 15rem;
+}
+
+.new_games {
+    color: #0c493b;
+    padding: 3rem 0;
+}
