@@ -2,11 +2,23 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../styling/home_style.css">
+        <link rel="stylesheet" type="text/css" href="top_style.css">
     </head>
     <body>
         <div class="main">
             <!---load header file--->
-            <?php include "../pages/top.html" ?>
+            <header>
+            <h1>Site Name</h1>
+            <div id="gap1" style="margin: 0 33rem"></div>
+            <h2>Login/Sign Up</h2>
+        </header>
+        <div style="background-color: white; margin: 1px;"></div>
+        <nav>
+            <h3 href="index.php">Home</h3>
+            <h3 href="browse.php">Browse</h3>
+            <div id="gap2" style="margin: 0 33rem"></div>
+            <input id="s_bar" type="search" placeholder=" Search">
+        </nav>
 
             <!---show popular and new content--->
             <div class="content">
