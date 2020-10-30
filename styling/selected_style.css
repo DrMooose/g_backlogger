@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    background-color: green;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: red;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#image {
+    border: solid black 1px;
+    padding: 4rem 2rem;
+    background-color: orange;
+}
+
+button {
+    background-color: green;
+}
+
+.game_info {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: blue;
+    padding: 0 1rem;
+}

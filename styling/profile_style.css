@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+#user {
+    color: black;
+    text-align: center;
+}
+
+hr {
+    margin: 1rem 2rem;
+}
+
+.things {
+    padding: 5rem;
+    margin: 1rem 0rem;
+    border: black 2px dotted;
+}

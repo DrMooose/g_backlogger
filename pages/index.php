@@ -1,12 +1,14 @@
 <!DOCTYPE html>
     <head>
+        <title>mygamelog.online</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../styling/home_style.css">
+        <link rel="stylesheet" type="text/css" href="styling/home_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main">
             <!---load header file--->
-            <?php include "top.html" ?>
+            <?php include "../components/top.html" ?>
 
             <!---show popular and new content--->
             <div class="content">
@@ -82,7 +84,8 @@
             </div>
 
             <!---load footer file--->
-            <?php include "foot.html" ?>
+            <?php include "../components/foot.html" ?>
         </div>
+        <script scr="script.js"></script>
     </body>
 </html>

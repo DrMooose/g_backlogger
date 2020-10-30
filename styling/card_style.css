@@ -3,6 +3,14 @@
 }
 
 .card-title {
-  color:black;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1D9276;
+  text-decoration: none;
 }
