@@ -36,6 +36,18 @@
                     <div id="card"> <?php include "../components/cards.php" ?> </div>
                     <div id="card"> <?php include "../components/cards.php" ?> </div>
                     <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
+                    <div id="card"> <?php include "../components/cards.php" ?> </div>
                 </div>
             </div>
 
