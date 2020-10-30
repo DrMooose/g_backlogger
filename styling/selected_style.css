@@ -6,7 +6,6 @@
 .content {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    background-color: green;
 }
 
 .pic {
@@ -14,16 +13,16 @@
     flex-direction: column;
     grid-column: 1;
     grid-row: 1;
-    background-color: red;
     text-align: center;
     justify-content: space-between;
     padding: 1rem;
+    border: 2px solid blue;
 }
 
 #image {
     border: solid black 1px;
     padding: 4rem 2rem;
-    background-color: orange;
+    border: 2px solid black;
 }
 
 button {
@@ -33,6 +32,7 @@ button {
 .game_info {
     grid-column: 2;
     grid-row: 1;
-    background-color: blue;
+    border: solid red 2px;
     padding: 0 1rem;
+    color: black;
 }
