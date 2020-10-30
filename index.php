@@ -8,7 +8,7 @@
     <body>
         <div class="main">
             <!---load header file--->
-            <?php include "../components/top.html" ?>
+            <?php include "components/top.html" ?>
 
             <!---show popular and new content--->
             <div class="content">
@@ -84,7 +84,7 @@
             </div>
 
             <!---load footer file--->
-            <?php include "../components/foot.html" ?>
+            <?php include "components/foot.html" ?>
         </div>
         <script scr="script.js"></script>
     </body>
