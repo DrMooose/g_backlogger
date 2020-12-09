@@ -23,7 +23,7 @@
                         <h5 class="t">Shooter</h5>
                         <h5 class="t">Sports</h5>
                         <h5 class="t">Simulation</h5>
-                        <h5 class="t" href="../pages/selected.php">Strategy</h5>
+                        <h5 class="t">Strategy</h5>
                     </div>
                 </div>
 

@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    color: black;
+    text-align: center;
+    border: solid 1px #0c493b;
+    margin: 5% 35% 10% 35% ;
+    box-shadow: 2px 2px 3px #616161;
+}
+
+.send {
+    margin-top: 1rem;
+    background-color: #1D9276;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+}
+
+#sign_up {
+    display: none;
+}

@@ -46,6 +46,10 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                    <br>
+                    <div class="see" style="float: right;"> <a href="../pages/browse.php">See More</a> </div>
+                </div>
+                <br>
 
                 <div class="new_games">
                     <h2>New Games</h2>
@@ -80,8 +84,12 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                    <br>
+                    <div style="float: right; color: #0c493b;"> <a href="browse.php">See More</a> </div>
+                    <br>
                 </div>
             </div>
+            
 
             <!---load footer file--->
             <?php include "components/foot.html" ?>

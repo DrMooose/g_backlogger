@@ -6,6 +6,7 @@
 .content {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .pic {
@@ -16,23 +17,36 @@
     text-align: center;
     justify-content: space-between;
     padding: 1rem;
-    border: 2px solid blue;
 }
 
 #image {
-    border: solid black 1px;
-    padding: 4rem 2rem;
-    border: 2px solid black;
+    border-radius: 15px 15px 0 0;
+    height: 100%;
+    width: 100%;
 }
 
 button {
-    background-color: green;
+    box-shadow: 1px -1px 2px rgb(31, 31, 31);
+    border-radius: 0 0 15px 15px;
+    background-color: #1D9276;
+    border: none;
+    color: white;
+    font-size: 20px;
 }
 
 .game_info {
     grid-column: 2;
     grid-row: 1;
-    border: solid red 2px;
     padding: 0 1rem;
     color: black;
+    font-size: 20px;
 }
+
+.post {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    color: black;
+    font-size: 20px;
+    padding: 0 1rem 0 1rem;
+}
+
