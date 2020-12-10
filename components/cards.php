@@ -3,12 +3,12 @@
     <link rel="stylesheet" type="text/css" href="../styling/card_style.css">
 </head>
 <body>
-    <a href="../pages/selected.php"> <h5 class="card-title">Game Name</h5> </a>
+    <a href="../pages/selected.php" class="card-title"> <h5>Game Name</h5> </a>
     <div class="card" style="width: 15rem; height: 18rem; border-radius: 1rem;">
         <img class="cover" src="https://www.solidbackgrounds.com/images/2560x1440/2560x1440-davys-grey-solid-color-background.jpg" style="width: 100%; height: 80%; border-radius: 0.9rem .9rem 0 0;">
         <div class="card-body">
             <div class="dropdown" style="text-align: center;">
-                <button type="button" class="btn btn-primary " data-toggle="dropdown" style="font-size: 1rem">+</button>
+                <button type="button" class="btn btn-primary " data-toggle="dropdown" style="font-size: 1rem; background-color: #1D9276;">+</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Playing</a>
                     <a class="dropdown-item" href="#">On Hold</a>
